@@ -59,7 +59,7 @@ public class SpringApplicationTests {
 	public void beforeTest() throws Exception {
 		
         // driver = new RemoteWebDriver(new URL("http://<seleniumhost:port>/"), chromeOptions);
-        driver = new RemoteWebDriver(new URL("http://localhost:8080"), chromeOptions);
+        driver = new RemoteWebDriver(new URL("http://34.85.242.216:4444"), chromeOptions);
 	}
 
 	@Test
